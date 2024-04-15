@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "86PVRnG29qhPDCxsGQsCqb8awqSDjtrFfwtFhYxenH9N0afedvtjqDLN27tahSrldKBUNJMooOzaV5OdEfffGw==",
+  "success": true,
+  "projectFilePath": "C:\\Temp\\repos\\csharp\\RaspApp\\Explorer700Library\\Explorer700Library.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jonas\\.nuget\\packages\\iot.device.bindings\\3.1.0\\iot.device.bindings.3.1.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\5.0.0\\runtime.linux-arm.runtime.native.system.io.ports.5.0.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\5.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.5.0.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\5.0.0\\runtime.linux-x64.runtime.native.system.io.ports.5.0.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\runtime.native.system.io.ports\\5.0.1\\runtime.native.system.io.ports.5.0.1.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\5.0.0\\runtime.osx-x64.runtime.native.system.io.ports.5.0.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\system.codedom\\5.0.0\\system.codedom.5.0.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\system.device.gpio\\3.1.0\\system.device.gpio.3.1.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\system.io.ports\\5.0.1\\system.io.ports.5.0.1.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\system.management\\5.0.0\\system.management.5.0.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\system.text.json\\6.0.1\\system.text.json.6.0.1.nupkg.sha512",
+    "C:\\Users\\Jonas\\.nuget\\packages\\unitsnet\\5.31.0\\unitsnet.5.31.0.nupkg.sha512"
+  ],
+  "logs": []
+}

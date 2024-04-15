@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RaspApp": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false
+    }
+  }
+}
