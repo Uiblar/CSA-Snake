@@ -26,6 +26,7 @@ namespace SnakeGame
         static int delay = 100;
         public int BoardWidth;
         public int BoardHeight;
+        public int Score { get; private set; } = 0;
         private volatile bool startGameRequested = false;
 
         public SnakeGame(Explorer700 exp, int BoardWidth, int BoardHeight)
@@ -36,6 +37,15 @@ namespace SnakeGame
             g = exp.Display.Graphics;
             snake = new Snake(BoardWidth / 2, BoardHeight / 2, g);
             food = new Food(BoardWidth-1, BoardHeight-1, g);
+        }
+        public void UpdateDisplay() {
+            exp.Display.Clear();
+            snake.Move();
+            food.Draw(2);
+            // Drawing the score box
+            g.DrawRectangle(Pens.White, BoardWidth - 47, 2, 45, 15); 
+            g.DrawString($" {Score}", new Font("Arial", 8), Brushes.White, new PointF(BoardWidth - 42, 3));
+            exp.Display.Update();
         }
 
         public void Run()
@@ -48,10 +58,7 @@ namespace SnakeGame
             {
                 for (int i = 0; i < 100; i++)
                 {
-                    exp.Display.Clear();
-                    snake.Move();
-                    food.Draw(2);
-                    exp.Display.Update();
+                    UpdateDisplay();
                     if (snake.DetectCollisionWithSelf() || snake.DetectWallCollision(BoardWidth, BoardHeight))
                     {
                         gameOver = true;
@@ -61,7 +68,9 @@ namespace SnakeGame
                     if(snake.DetectFoodCollision(food.X, food.Y))
                     {
                         exp.Buzzer.Beep(10);
-                        food.GenerateRandomPosition();
+                        food.GenerateRandomPosition();                       
+                        Score += 1;
+                        UpdateDisplay();
                         i = 0;
                     };
                     Thread.Sleep(delay);

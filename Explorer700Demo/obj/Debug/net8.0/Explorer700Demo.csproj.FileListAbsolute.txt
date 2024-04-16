@@ -84,3 +84,4 @@ C:\Temp\repos\csharp\RaspApp\Explorer700Demo\obj\Debug\net8.0\refint\Explorer700
 C:\Temp\repos\csharp\RaspApp\Explorer700Demo\obj\Debug\net8.0\Explorer700Demo.pdb
 C:\Temp\repos\csharp\RaspApp\Explorer700Demo\obj\Debug\net8.0\Explorer700Demo.genruntimeconfig.cache
 C:\Temp\repos\csharp\RaspApp\Explorer700Demo\obj\Debug\net8.0\ref\Explorer700Demo.dll
+C:\Temp\repos\csharp\RaspApp\Explorer700Demo\obj\Debug\net8.0\Explorer700Demo.sourcelink.json

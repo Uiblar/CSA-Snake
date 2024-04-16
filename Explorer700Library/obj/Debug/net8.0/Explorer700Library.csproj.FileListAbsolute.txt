@@ -22,3 +22,4 @@ C:\Temp\repos\csharp\RaspApp\Explorer700Library\obj\Debug\net8.0\Explorer700Libr
 C:\Temp\repos\csharp\RaspApp\Explorer700Library\obj\Debug\net8.0\refint\Explorer700Library.dll
 C:\Temp\repos\csharp\RaspApp\Explorer700Library\obj\Debug\net8.0\Explorer700Library.pdb
 C:\Temp\repos\csharp\RaspApp\Explorer700Library\obj\Debug\net8.0\ref\Explorer700Library.dll
+C:\Temp\repos\csharp\RaspApp\Explorer700Library\obj\Debug\net8.0\Explorer700Library.sourcelink.json

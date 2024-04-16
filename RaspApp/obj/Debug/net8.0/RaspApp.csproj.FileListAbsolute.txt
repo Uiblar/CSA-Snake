@@ -26,3 +26,4 @@ C:\Temp\repos\csharp\RaspApp\RaspApp\obj\Debug\net8.0\refint\RaspApp.dll
 C:\Temp\repos\csharp\RaspApp\RaspApp\obj\Debug\net8.0\RaspApp.pdb
 C:\Temp\repos\csharp\RaspApp\RaspApp\obj\Debug\net8.0\RaspApp.genruntimeconfig.cache
 C:\Temp\repos\csharp\RaspApp\RaspApp\obj\Debug\net8.0\ref\RaspApp.dll
+C:\Temp\repos\csharp\RaspApp\RaspApp\obj\Debug\net8.0\RaspApp.sourcelink.json

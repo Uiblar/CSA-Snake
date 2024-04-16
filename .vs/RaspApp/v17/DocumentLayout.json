@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Temp\\repos\\csharp\\RaspApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{747AB3D2-A847-41ED-9A79-28667496D7C6}|SnakeGame\\SnakeGame.csproj|c:\\temp\\repos\\csharp\\raspapp\\snakegame\\snakegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{747AB3D2-A847-41ED-9A79-28667496D7C6}|SnakeGame\\SnakeGame.csproj|solutionrelative:snakegame\\snakegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{747AB3D2-A847-41ED-9A79-28667496D7C6}|SnakeGame\\SnakeGame.csproj|c:\\temp\\repos\\csharp\\raspapp\\snakegame\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{747AB3D2-A847-41ED-9A79-28667496D7C6}|SnakeGame\\SnakeGame.csproj|solutionrelative:snakegame\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{747AB3D2-A847-41ED-9A79-28667496D7C6}|SnakeGame\\SnakeGame.csproj|c:\\temp\\repos\\csharp\\raspapp\\snakegame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{747AB3D2-A847-41ED-9A79-28667496D7C6}|SnakeGame\\SnakeGame.csproj|solutionrelative:snakegame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{747AB3D2-A847-41ED-9A79-28667496D7C6}|SnakeGame\\SnakeGame.csproj|c:\\temp\\repos\\csharp\\raspapp\\snakegame\\snakegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{747AB3D2-A847-41ED-9A79-28667496D7C6}|SnakeGame\\SnakeGame.csproj|solutionrelative:snakegame\\snakegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{747AB3D2-A847-41ED-9A79-28667496D7C6}|SnakeGame\\SnakeGame.csproj|c:\\temp\\repos\\csharp\\raspapp\\snakegame\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{747AB3D2-A847-41ED-9A79-28667496D7C6}|SnakeGame\\SnakeGame.csproj|solutionrelative:snakegame\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{747AB3D2-A847-41ED-9A79-28667496D7C6}|SnakeGame\\SnakeGame.csproj|c:\\temp\\repos\\csharp\\raspapp\\snakegame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{747AB3D2-A847-41ED-9A79-28667496D7C6}|SnakeGame\\SnakeGame.csproj|solutionrelative:snakegame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{747AB3D2-A847-41ED-9A79-28667496D7C6}|SnakeGame\\SnakeGame.csproj|c:\\temp\\repos\\csharp\\raspapp\\snakegame\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{747AB3D2-A847-41ED-9A79-28667496D7C6}|SnakeGame\\SnakeGame.csproj|solutionrelative:snakegame\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{747AB3D2-A847-41ED-9A79-28667496D7C6}|SnakeGame\\SnakeGame.csproj|c:\\temp\\repos\\csharp\\raspapp\\snakegame\\snakegame.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{747AB3D2-A847-41ED-9A79-28667496D7C6}|SnakeGame\\SnakeGame.csproj|solutionrelative:snakegame\\snakegame.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7536F39E-1D8C-4F1F-A595-9E98FFE95EEB}|Explorer700Demo\\Explorer700Demo.csproj|c:\\temp\\repos\\csharp\\raspapp\\explorer700demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7536F39E-1D8C-4F1F-A595-9E98FFE95EEB}|Explorer700Demo\\Explorer700Demo.csproj|solutionrelative:explorer700demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{747AB3D2-A847-41ED-9A79-28667496D7C6}|SnakeGame\\SnakeGame.csproj|c:\\temp\\repos\\csharp\\raspapp\\snakegame\\snakegame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -29,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7536F39E-1D8C-4F1F-A595-9E98FFE95EEB}|Explorer700Demo\\Explorer700Demo.csproj|c:\\temp\\repos\\csharp\\raspapp\\explorer700demo\\explorer700demo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{7536F39E-1D8C-4F1F-A595-9E98FFE95EEB}|Explorer700Demo\\Explorer700Demo.csproj|solutionrelative:explorer700demo\\explorer700demo.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7536F39E-1D8C-4F1F-A595-9E98FFE95EEB}|Explorer700Demo\\Explorer700Demo.csproj|c:\\temp\\repos\\csharp\\raspapp\\explorer700demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7536F39E-1D8C-4F1F-A595-9E98FFE95EEB}|Explorer700Demo\\Explorer700Demo.csproj|solutionrelative:explorer700demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{132DEBCD-F6F7-467C-B035-C2E41F71C1C3}|Explorer700Library\\Explorer700Library.csproj|c:\\temp\\repos\\csharp\\raspapp\\explorer700library\\joystick\\joystick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,23 +50,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\Temp\\repos\\csharp\\RaspApp\\SnakeGame\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "SnakeGame\\ClassDiagram1.cd",
+              "ToolTip": "C:\\Temp\\repos\\csharp\\RaspApp\\SnakeGame\\ClassDiagram1.cd",
+              "RelativeToolTip": "SnakeGame\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-04-15T16:26:08.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Temp\\repos\\csharp\\RaspApp\\Explorer700Demo\\Program.cs",
               "RelativeDocumentMoniker": "Explorer700Demo\\Program.cs",
               "ToolTip": "C:\\Temp\\repos\\csharp\\RaspApp\\Explorer700Demo\\Program.cs",
               "RelativeToolTip": "Explorer700Demo\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAA4AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T14:03:49.304Z"
+              "WhenOpened": "2024-04-15T14:03:49.304Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SnakeGame.csproj",
               "DocumentMoniker": "C:\\Temp\\repos\\csharp\\RaspApp\\SnakeGame\\SnakeGame.csproj",
               "RelativeDocumentMoniker": "SnakeGame\\SnakeGame.csproj",
@@ -70,82 +87,88 @@
               "RelativeToolTip": "SnakeGame\\SnakeGame.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-15T13:22:44.03Z"
+              "WhenOpened": "2024-04-15T13:22:44.03Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "SnakeGame",
               "DocumentMoniker": "C:\\Temp\\repos\\csharp\\RaspApp\\SnakeGame\\SnakeGame.csproj",
               "RelativeDocumentMoniker": "SnakeGame\\SnakeGame.csproj",
               "ToolTip": "C:\\Temp\\repos\\csharp\\RaspApp\\SnakeGame\\SnakeGame.csproj",
               "RelativeToolTip": "SnakeGame\\SnakeGame.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-15T13:22:47.254Z"
+              "WhenOpened": "2024-04-15T13:22:47.254Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Explorer700Demo",
               "DocumentMoniker": "C:\\Temp\\repos\\csharp\\RaspApp\\Explorer700Demo\\Explorer700Demo.csproj",
               "RelativeDocumentMoniker": "Explorer700Demo\\Explorer700Demo.csproj",
               "ToolTip": "C:\\Temp\\repos\\csharp\\RaspApp\\Explorer700Demo\\Explorer700Demo.csproj",
               "RelativeToolTip": "Explorer700Demo\\Explorer700Demo.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-15T13:22:38.54Z"
+              "WhenOpened": "2024-04-15T13:22:38.54Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Temp\\repos\\csharp\\RaspApp\\SnakeGame\\Program.cs",
               "RelativeDocumentMoniker": "SnakeGame\\Program.cs",
               "ToolTip": "C:\\Temp\\repos\\csharp\\RaspApp\\SnakeGame\\Program.cs",
               "RelativeToolTip": "SnakeGame\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAAAcAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAYwBcAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T12:07:26.007Z"
+              "WhenOpened": "2024-04-15T12:07:26.007Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Snake.cs",
               "DocumentMoniker": "C:\\Temp\\repos\\csharp\\RaspApp\\SnakeGame\\Snake.cs",
               "RelativeDocumentMoniker": "SnakeGame\\Snake.cs",
               "ToolTip": "C:\\Temp\\repos\\csharp\\RaspApp\\SnakeGame\\Snake.cs",
               "RelativeToolTip": "SnakeGame\\Snake.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwBsAAAAXAAAA",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAjwIgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T15:43:02.352Z"
+              "WhenOpened": "2024-04-13T15:43:02.352Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Food.cs",
               "DocumentMoniker": "C:\\Temp\\repos\\csharp\\RaspApp\\SnakeGame\\Food.cs",
               "RelativeDocumentMoniker": "SnakeGame\\Food.cs",
               "ToolTip": "C:\\Temp\\repos\\csharp\\RaspApp\\SnakeGame\\Food.cs",
               "RelativeToolTip": "SnakeGame\\Food.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAJAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwCoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T15:47:48.263Z"
+              "WhenOpened": "2024-04-13T15:47:48.263Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SnakeGame.cs",
               "DocumentMoniker": "C:\\Temp\\repos\\csharp\\RaspApp\\SnakeGame\\SnakeGame.cs",
               "RelativeDocumentMoniker": "SnakeGame\\SnakeGame.cs",
               "ToolTip": "C:\\Temp\\repos\\csharp\\RaspApp\\SnakeGame\\SnakeGame.cs",
               "RelativeToolTip": "SnakeGame\\SnakeGame.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAYwHMAAAANAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwC0AAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T09:13:38.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Joystick.cs",
               "DocumentMoniker": "C:\\Temp\\repos\\csharp\\RaspApp\\Explorer700Library\\Joystick\\Joystick.cs",
               "RelativeDocumentMoniker": "Explorer700Library\\Joystick\\Joystick.cs",

@@ -94,3 +94,4 @@ C:\Temp\repos\csharp\RaspApp\SnakeGame\obj\Debug\net8.0\refint\SnakeGame.dll
 C:\Temp\repos\csharp\RaspApp\SnakeGame\obj\Debug\net8.0\SnakeGame.pdb
 C:\Temp\repos\csharp\RaspApp\SnakeGame\obj\Debug\net8.0\SnakeGame.genruntimeconfig.cache
 C:\Temp\repos\csharp\RaspApp\SnakeGame\obj\Debug\net8.0\ref\SnakeGame.dll
+C:\Temp\repos\csharp\RaspApp\SnakeGame\obj\Debug\net8.0\SnakeGame.sourcelink.json

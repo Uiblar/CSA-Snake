@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RaspApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8482aaa00374adab6f2473ca0d0d2fb5f98695bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("RaspApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RaspApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

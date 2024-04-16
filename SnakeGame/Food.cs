@@ -23,8 +23,10 @@ namespace SnakeGame
         public void GenerateRandomPosition(int maxX, int maxY)
         {
             // Generate random X and Y coordinates within the specified range
-            X = random.Next(1, maxX / 2)*2;
-            Y = random.Next(1, maxY/2)*2;
+            do {
+                X = random.Next(1, maxX / 2) * 2;
+                Y = random.Next(1, maxY / 2) * 2;
+            } while (X >= maxX - 48 && Y <= 16); // Check if within the score box (+1px)
         }
 
         public void GenerateRandomPosition()
