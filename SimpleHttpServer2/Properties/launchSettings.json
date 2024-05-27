@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "SimpleHttpServer": {
+      "commandName": "Project",
+      "commandLineArgs": "daten.txt",
+      "workingDirectory": "C:\\temp"
+    }
+  }
+}

@@ -1101,19 +1101,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jonas\\.nuget\\packages\\": {}
+    "C:\\Users\\chama\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\repos\\csharp\\RaspApp\\Explorer700Demo\\Explorer700Demo.csproj",
+      "projectUniqueName": "C:\\Users\\chama\\source\\repos\\CSA-Snake\\Explorer700Demo\\Explorer700Demo.csproj",
       "projectName": "Explorer700Demo",
-      "projectPath": "C:\\Temp\\repos\\csharp\\RaspApp\\Explorer700Demo\\Explorer700Demo.csproj",
-      "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\repos\\csharp\\RaspApp\\Explorer700Demo\\obj\\",
+      "projectPath": "C:\\Users\\chama\\source\\repos\\CSA-Snake\\Explorer700Demo\\Explorer700Demo.csproj",
+      "packagesPath": "C:\\Users\\chama\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chama\\Source\\Repos\\CSA-Snake\\Explorer700Demo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\chama\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1127,8 +1127,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Temp\\repos\\csharp\\RaspApp\\Explorer700Library\\Explorer700Library.csproj": {
-              "projectPath": "C:\\Temp\\repos\\csharp\\RaspApp\\Explorer700Library\\Explorer700Library.csproj"
+            "C:\\Users\\chama\\source\\repos\\CSA-Snake\\Explorer700Library\\Explorer700Library.csproj": {
+              "projectPath": "C:\\Users\\chama\\source\\repos\\CSA-Snake\\Explorer700Library\\Explorer700Library.csproj"
             }
           }
         }

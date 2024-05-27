@@ -23,11 +23,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\OneDrive - Hochschule Luzern\CSA\SW11 _ SW12 - Kommunikation mit Sockets\Praktikum\CSA_F24\Sockets\Uebungen\SimpleHttpServer\SimpleHttpServer.csproj" />
     <ProjectReference Include="..\Explorer700Library\Explorer700Library.csproj" />
+    <ProjectReference Include="..\Logger\Logger.csproj" />
   </ItemGroup>
 
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="cd &quot;$(TargetDir)&quot;&#xD;&#xA;&quot;$(SolutionDir)\SecureUpload.exe&quot; . pi-home:netcore/$(ProjectName)" />
-  </Target>
+	<!--
+<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+  <Exec Command="cd &quot;$(TargetDir)&quot;&#xD;&#xA;&quot;$(SolutionDir)\SecureUpload.exe&quot; . pi-home:netcore/$(ProjectName)" />
+</Target>
+-->
 
 </Project>

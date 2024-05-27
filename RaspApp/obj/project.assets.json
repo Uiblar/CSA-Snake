@@ -1,26 +1,45 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "SimpleHttpServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SimpleHttpServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimpleHttpServer.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SimpleHttpServer/1.0.0": {
+      "type": "project",
+      "path": "../../../../OneDrive - Hochschule Luzern/CSA/SW11 _ SW12 - Kommunikation mit Sockets/Praktikum/CSA_F24/Sockets/Uebungen/SimpleHttpServer/SimpleHttpServer.csproj",
+      "msbuildProject": "../../../../OneDrive - Hochschule Luzern/CSA/SW11 _ SW12 - Kommunikation mit Sockets/Praktikum/CSA_F24/Sockets/Uebungen/SimpleHttpServer/SimpleHttpServer.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "SimpleHttpServer >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Jonas\\.nuget\\packages\\": {}
+    "C:\\Users\\chama\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\repos\\csharp\\RaspApp\\RaspApp\\RaspApp.csproj",
+      "projectUniqueName": "C:\\Users\\chama\\source\\repos\\CSA-Snake\\RaspApp\\RaspApp.csproj",
       "projectName": "RaspApp",
-      "projectPath": "C:\\Temp\\repos\\csharp\\RaspApp\\RaspApp\\RaspApp.csproj",
-      "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
-      "outputPath": "C:\\Temp\\repos\\csharp\\RaspApp\\RaspApp\\obj\\",
+      "projectPath": "C:\\Users\\chama\\source\\repos\\CSA-Snake\\RaspApp\\RaspApp.csproj",
+      "packagesPath": "C:\\Users\\chama\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chama\\source\\repos\\CSA-Snake\\RaspApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\chama\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +52,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\chama\\OneDrive - Hochschule Luzern\\CSA\\SW11 _ SW12 - Kommunikation mit Sockets\\Praktikum\\CSA_F24\\Sockets\\Uebungen\\SimpleHttpServer\\SimpleHttpServer.csproj": {
+              "projectPath": "C:\\Users\\chama\\OneDrive - Hochschule Luzern\\CSA\\SW11 _ SW12 - Kommunikation mit Sockets\\Praktikum\\CSA_F24\\Sockets\\Uebungen\\SimpleHttpServer\\SimpleHttpServer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaspApp", "RaspApp\RaspApp.csproj", "{8D9809B2-0C17-4B95-AC45-5F6EB1BA81CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Explorer700Library", "Explorer700Library\Explorer700Library.csproj", "{132DEBCD-F6F7-467C-B035-C2E41F71C1C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnakeGame", "SnakeGame\SnakeGame.csproj", "{747AB3D2-A847-41ED-9A79-28667496D7C6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6DBA6841-746D-495C-A771-50775C8EEC62} = {6DBA6841-746D-495C-A771-50775C8EEC62}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleHttpServer", "..\..\..\OneDrive - Hochschule Luzern\CSA\SW11 _ SW12 - Kommunikation mit Sockets\Praktikum\CSA_F24\Sockets\Uebungen\SimpleHttpServer\SimpleHttpServer.csproj", "{6DBA6841-746D-495C-A771-50775C8EEC62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logger", "Logger\Logger.csproj", "{8D92CB3B-FB08-4B10-905A-F657062E076A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D9809B2-0C17-4B95-AC45-5F6EB1BA81CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9809B2-0C17-4B95-AC45-5F6EB1BA81CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9809B2-0C17-4B95-AC45-5F6EB1BA81CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9809B2-0C17-4B95-AC45-5F6EB1BA81CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132DEBCD-F6F7-467C-B035-C2E41F71C1C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132DEBCD-F6F7-467C-B035-C2E41F71C1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132DEBCD-F6F7-467C-B035-C2E41F71C1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132DEBCD-F6F7-467C-B035-C2E41F71C1C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{747AB3D2-A847-41ED-9A79-28667496D7C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{747AB3D2-A847-41ED-9A79-28667496D7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{747AB3D2-A847-41ED-9A79-28667496D7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{747AB3D2-A847-41ED-9A79-28667496D7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DBA6841-746D-495C-A771-50775C8EEC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBA6841-746D-495C-A771-50775C8EEC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBA6841-746D-495C-A771-50775C8EEC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBA6841-746D-495C-A771-50775C8EEC62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D92CB3B-FB08-4B10-905A-F657062E076A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D92CB3B-FB08-4B10-905A-F657062E076A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D92CB3B-FB08-4B10-905A-F657062E076A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D92CB3B-FB08-4B10-905A-F657062E076A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {010C5AF0-EC11-4C6F-9E98-78F011156888}
+	EndGlobalSection
+EndGlobal

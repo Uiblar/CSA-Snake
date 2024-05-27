@@ -27,7 +27,7 @@ namespace SnakeGame {
             Direction = "Right";
             this.g = g;
             for (int i = 0; i < length; i++) {
-                Console.WriteLine("Element der Schlange wird erstellt: " + i + ", Position: x: " + (startX - (i * 3)) + ", y: " + startY);
+                //Console.WriteLine("Element der Schlange wird erstellt: " + i + ", Position: x: " + (startX - (i * 3)) + ", y: " + startY);
                 snakeBody.AddLast(new Point(startX - (i * 3), startY));
             }
             Draw();

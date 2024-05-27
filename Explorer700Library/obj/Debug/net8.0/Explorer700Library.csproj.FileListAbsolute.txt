@@ -23,3 +23,16 @@ C:\Temp\repos\csharp\RaspApp\Explorer700Library\obj\Debug\net8.0\refint\Explorer
 C:\Temp\repos\csharp\RaspApp\Explorer700Library\obj\Debug\net8.0\Explorer700Library.pdb
 C:\Temp\repos\csharp\RaspApp\Explorer700Library\obj\Debug\net8.0\ref\Explorer700Library.dll
 C:\Temp\repos\csharp\RaspApp\Explorer700Library\obj\Debug\net8.0\Explorer700Library.sourcelink.json
+C:\Users\chama\Source\Repos\CSA-Snake\Explorer700Library\bin\Debug\net8.0\Explorer700Library.deps.json
+C:\Users\chama\Source\Repos\CSA-Snake\Explorer700Library\bin\Debug\net8.0\Explorer700Library.dll
+C:\Users\chama\Source\Repos\CSA-Snake\Explorer700Library\bin\Debug\net8.0\Explorer700Library.pdb
+C:\Users\chama\Source\Repos\CSA-Snake\Explorer700Library\obj\Debug\net8.0\Explorer700Library.csproj.AssemblyReference.cache
+C:\Users\chama\Source\Repos\CSA-Snake\Explorer700Library\obj\Debug\net8.0\Explorer700Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chama\Source\Repos\CSA-Snake\Explorer700Library\obj\Debug\net8.0\Explorer700Library.AssemblyInfoInputs.cache
+C:\Users\chama\Source\Repos\CSA-Snake\Explorer700Library\obj\Debug\net8.0\Explorer700Library.AssemblyInfo.cs
+C:\Users\chama\Source\Repos\CSA-Snake\Explorer700Library\obj\Debug\net8.0\Explorer700Library.csproj.CoreCompileInputs.cache
+C:\Users\chama\Source\Repos\CSA-Snake\Explorer700Library\obj\Debug\net8.0\Explorer700Library.sourcelink.json
+C:\Users\chama\Source\Repos\CSA-Snake\Explorer700Library\obj\Debug\net8.0\Explorer700Library.dll
+C:\Users\chama\Source\Repos\CSA-Snake\Explorer700Library\obj\Debug\net8.0\refint\Explorer700Library.dll
+C:\Users\chama\Source\Repos\CSA-Snake\Explorer700Library\obj\Debug\net8.0\Explorer700Library.pdb
+C:\Users\chama\Source\Repos\CSA-Snake\Explorer700Library\obj\Debug\net8.0\ref\Explorer700Library.dll

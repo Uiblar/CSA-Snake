@@ -1,16 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using Explorer700Library;
-using UnitsNet;
 
 
 namespace SnakeGame
@@ -28,30 +21,37 @@ namespace SnakeGame
         public int BoardHeight;
         public int Score { get; private set; } = 0;
         private volatile bool startGameRequested = false;
+        private Logger.Logger logger;
 
-        public SnakeGame(Explorer700 exp, int BoardWidth, int BoardHeight)
+        public SnakeGame(Explorer700 exp, int BoardWidth, int BoardHeight, string filename, Mutex mutex)
         {
             this.exp = exp;
             this.BoardWidth = BoardWidth;
             this.BoardHeight = BoardHeight;
             g = exp.Display.Graphics;
             snake = new Snake(BoardWidth / 2, BoardHeight / 2, g);
-            food = new Food(BoardWidth-1, BoardHeight-1, g);
+            food = new Food(BoardWidth - 1, BoardHeight - 1, g);
+            this.logger = new Logger.Logger(filename, mutex);
         }
-        public void UpdateDisplay() {
+        public void UpdateDisplay()
+        {
             exp.Display.Clear();
             snake.Move();
             food.Draw(2);
             // Drawing the score box
-            g.DrawRectangle(Pens.White, BoardWidth - 47, 2, 45, 15); 
+            g.DrawRectangle(Pens.White, BoardWidth - 47, 2, 45, 15);
             g.DrawString($" {Score}", new Font("Arial", 8), Brushes.White, new PointF(BoardWidth - 42, 3));
             exp.Display.Update();
         }
 
         public void Run()
         {
+            Console.WriteLine("Das Snake-Spiel beginnt!");
+
+
             exp.Joystick.JoystickChanged += OnJoystickChanged;
-            if (!startGameRequested) {
+            if (!startGameRequested)
+            {
                 DisplayHomeScreen();
             }
             while (!gameOver)
@@ -65,10 +65,10 @@ namespace SnakeGame
                         break;
                     }
 
-                    if(snake.DetectFoodCollision(food.X, food.Y))
+                    if (snake.DetectFoodCollision(food.X, food.Y))
                     {
                         exp.Buzzer.Beep(10);
-                        food.GenerateRandomPosition();                       
+                        food.GenerateRandomPosition();
                         Score += 1;
                         UpdateDisplay();
                         i = 0;
@@ -81,50 +81,52 @@ namespace SnakeGame
             OnGameOver();
         }
 
-        //void OnGameOver()
-        //{
-        //    Console.WriteLine("Game Over.");
-        //    exp.Display.Clear();
-        //    g.DrawString("Game Over :(", new Font(new FontFamily("arial"), 8, FontStyle.Bold), Brushes.White, new PointF(20, BoardHeight/2));
-        //    exp.Display.Update();
-        //    Thread.Sleep(9000);
-        //}
-        void OnGameOver() {
+
+        void OnGameOver()
+        {
             Console.WriteLine("Game Over.");
             exp.Display.Clear();
             g.DrawString("Game Over :(", new Font(new FontFamily("arial"), 8, FontStyle.Bold), Brushes.White, new PointF(20, BoardHeight / 2 - 20));
-            g.DrawString("Center to Restart", new Font(new FontFamily("arial"), 8), Brushes.White, new PointF(5, BoardHeight / 2 ));
+            g.DrawString("Center to Restart", new Font(new FontFamily("arial"), 8), Brushes.White, new PointF(5, BoardHeight / 2));
             g.DrawString("Down to Quit", new Font(new FontFamily("arial"), 8), Brushes.White, new PointF(5, BoardHeight / 2 + 20));
             exp.Display.Update();
             // Wait for the center button to be pressed to restart
-            while (true) {
+            while (true)
+            {
                 Thread.Sleep(100);
-                if (exp.Joystick.Keys.HasFlag(Keys.Center)) {
+                if (exp.Joystick.Keys.HasFlag(Keys.Center))
+                {
                     ResetGame(); //Resets game variables
                     break;
                 }
-                if (exp.Joystick.Keys.HasFlag(Keys.Down)) {
+                if (exp.Joystick.Keys.HasFlag(Keys.Down))
+                {
                     //Close
                     break;
                 }
             }
         }
 
-        public void DisplayHomeScreen() {
+        public void DisplayHomeScreen()
+        {
             g.Clear(Color.Black);
-            using (Stream imageStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("SnakeGame.Resources.snake.png")) {
-                if (imageStream != null) {
+            using (Stream imageStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("SnakeGame.Resources.snake.png"))
+            {
+                if (imageStream != null)
+                {
                     Image image = Image.FromStream(imageStream);
                     g.DrawImage(image, 0, 0);
                 }
             }
             exp.Display.Update();
             // OnJoystickChanged Center sets startGameRequested = true
-            while (!startGameRequested) {
+            while (!startGameRequested)
+            {
                 Thread.Sleep(100); // Poll every 100 ms
             }
         }
-        void ResetGame() {
+        void ResetGame()
+        {
             // Reset game variables
             gameOver = false;
             snake = new Snake(BoardWidth / 2, BoardHeight / 2, g);
@@ -136,7 +138,13 @@ namespace SnakeGame
 
         void OnJoystickChanged(object sender, KeyEventArgs args)
         {
-            if (args.Keys == Keys.Center) {
+            if (args.Keys != Keys.NoKey)
+            {
+                Console.WriteLine(args.Keys.ToString());
+                logger.Log($"Joystick: {args.Keys}");
+            }
+            if (args.Keys == Keys.Center)
+            {
                 startGameRequested = true;
             }
             if (args.Keys != Keys.NoKey && args.Keys != Keys.Center)

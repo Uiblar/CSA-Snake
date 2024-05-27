@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\OneDrive - Hochschule Luzern\CSA\SW11 _ SW12 - Kommunikation mit Sockets\Praktikum\CSA_F24\Sockets\Uebungen\SimpleHttpServer\SimpleHttpServer.csproj" />
+  </ItemGroup>
+
 </Project>

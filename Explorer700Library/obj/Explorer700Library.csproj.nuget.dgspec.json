@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Temp\\repos\\csharp\\RaspApp\\Explorer700Library\\Explorer700Library.csproj": {}
+    "C:\\Users\\chama\\source\\repos\\CSA-Snake\\Explorer700Library\\Explorer700Library.csproj": {}
   },
   "projects": {
-    "C:\\Temp\\repos\\csharp\\RaspApp\\Explorer700Library\\Explorer700Library.csproj": {
+    "C:\\Users\\chama\\source\\repos\\CSA-Snake\\Explorer700Library\\Explorer700Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp\\repos\\csharp\\RaspApp\\Explorer700Library\\Explorer700Library.csproj",
+        "projectUniqueName": "C:\\Users\\chama\\source\\repos\\CSA-Snake\\Explorer700Library\\Explorer700Library.csproj",
         "projectName": "Explorer700Library",
-        "projectPath": "C:\\Temp\\repos\\csharp\\RaspApp\\Explorer700Library\\Explorer700Library.csproj",
-        "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp\\repos\\csharp\\RaspApp\\Explorer700Library\\obj\\",
+        "projectPath": "C:\\Users\\chama\\source\\repos\\CSA-Snake\\Explorer700Library\\Explorer700Library.csproj",
+        "packagesPath": "C:\\Users\\chama\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chama\\source\\repos\\CSA-Snake\\Explorer700Library\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chama\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

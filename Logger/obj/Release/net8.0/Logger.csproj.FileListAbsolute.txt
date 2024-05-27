@@ -1,0 +1,12 @@
+C:\Users\chama\source\repos\CSA-Snake\Logger\bin\Release\net8.0\Logger.deps.json
+C:\Users\chama\source\repos\CSA-Snake\Logger\bin\Release\net8.0\Logger.dll
+C:\Users\chama\source\repos\CSA-Snake\Logger\bin\Release\net8.0\Logger.pdb
+C:\Users\chama\source\repos\CSA-Snake\Logger\obj\Release\net8.0\Logger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chama\source\repos\CSA-Snake\Logger\obj\Release\net8.0\Logger.AssemblyInfoInputs.cache
+C:\Users\chama\source\repos\CSA-Snake\Logger\obj\Release\net8.0\Logger.AssemblyInfo.cs
+C:\Users\chama\source\repos\CSA-Snake\Logger\obj\Release\net8.0\Logger.csproj.CoreCompileInputs.cache
+C:\Users\chama\source\repos\CSA-Snake\Logger\obj\Release\net8.0\Logger.sourcelink.json
+C:\Users\chama\source\repos\CSA-Snake\Logger\obj\Release\net8.0\Logger.dll
+C:\Users\chama\source\repos\CSA-Snake\Logger\obj\Release\net8.0\refint\Logger.dll
+C:\Users\chama\source\repos\CSA-Snake\Logger\obj\Release\net8.0\Logger.pdb
+C:\Users\chama\source\repos\CSA-Snake\Logger\obj\Release\net8.0\ref\Logger.dll

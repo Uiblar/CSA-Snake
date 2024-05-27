@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Temp\\repos\\csharp\\RaspApp\\RaspApp\\RaspApp.csproj": {}
+    "C:\\Users\\chama\\source\\repos\\CSA-Snake\\RaspApp\\RaspApp.csproj": {}
   },
   "projects": {
-    "C:\\Temp\\repos\\csharp\\RaspApp\\RaspApp\\RaspApp.csproj": {
+    "C:\\Users\\chama\\OneDrive - Hochschule Luzern\\CSA\\SW11 _ SW12 - Kommunikation mit Sockets\\Praktikum\\CSA_F24\\Sockets\\Uebungen\\SimpleHttpServer\\SimpleHttpServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Temp\\repos\\csharp\\RaspApp\\RaspApp\\RaspApp.csproj",
-        "projectName": "RaspApp",
-        "projectPath": "C:\\Temp\\repos\\csharp\\RaspApp\\RaspApp\\RaspApp.csproj",
-        "packagesPath": "C:\\Users\\Jonas\\.nuget\\packages\\",
-        "outputPath": "C:\\Temp\\repos\\csharp\\RaspApp\\RaspApp\\obj\\",
+        "projectUniqueName": "C:\\Users\\chama\\OneDrive - Hochschule Luzern\\CSA\\SW11 _ SW12 - Kommunikation mit Sockets\\Praktikum\\CSA_F24\\Sockets\\Uebungen\\SimpleHttpServer\\SimpleHttpServer.csproj",
+        "projectName": "SimpleHttpServer",
+        "projectPath": "C:\\Users\\chama\\OneDrive - Hochschule Luzern\\CSA\\SW11 _ SW12 - Kommunikation mit Sockets\\Praktikum\\CSA_F24\\Sockets\\Uebungen\\SimpleHttpServer\\SimpleHttpServer.csproj",
+        "packagesPath": "C:\\Users\\chama\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chama\\OneDrive - Hochschule Luzern\\CSA\\SW11 _ SW12 - Kommunikation mit Sockets\\Praktikum\\CSA_F24\\Sockets\\Uebungen\\SimpleHttpServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jonas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chama\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,6 +28,70 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\chama\\source\\repos\\CSA-Snake\\RaspApp\\RaspApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chama\\source\\repos\\CSA-Snake\\RaspApp\\RaspApp.csproj",
+        "projectName": "RaspApp",
+        "projectPath": "C:\\Users\\chama\\source\\repos\\CSA-Snake\\RaspApp\\RaspApp.csproj",
+        "packagesPath": "C:\\Users\\chama\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chama\\source\\repos\\CSA-Snake\\RaspApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chama\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\chama\\OneDrive - Hochschule Luzern\\CSA\\SW11 _ SW12 - Kommunikation mit Sockets\\Praktikum\\CSA_F24\\Sockets\\Uebungen\\SimpleHttpServer\\SimpleHttpServer.csproj": {
+                "projectPath": "C:\\Users\\chama\\OneDrive - Hochschule Luzern\\CSA\\SW11 _ SW12 - Kommunikation mit Sockets\\Praktikum\\CSA_F24\\Sockets\\Uebungen\\SimpleHttpServer\\SimpleHttpServer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
